@@ -1,0 +1,179 @@
+/* General Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header Styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav ul li {
+  font-size: 1.2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background: #555;
+}
+
+/* Hero Section */
+#hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.hero-content p {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background: #ff6f61;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.cta-button:hover {
+  background: #ff4e3a;
+}
+
+/* Features Section */
+#features {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.feature-item h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.feature-item p {
+  color: #666;
+  font-size: 1rem;
+}
+
+
+
+
+/* Contact Section */
+#contact {
+  background: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background: #ff6f61;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+  background: #ff4e3a;
+}
+
+/* Footer Styling */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
